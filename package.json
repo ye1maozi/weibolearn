@@ -1,0 +1,21 @@
+{
+	"name":"weibo",
+	"version":"v1.0.0",
+	"scripts":{
+			"start":"node ./bin/web"
+		},
+	"dependencies":{
+		"express":"~4.13.4",  		
+		"serve-favicon":"~2.3.0",	
+		"morgan": "~1.6.1",		
+		"cookie-parser": "~1.4.1",
+		"body-parser": "~1.14.2",
+		"debug": "~2.2.0",
+		"ejs": "2.3.4",
+		"mongodb":"~2.1.8",
+		"connect-mongo":"~1.1.0",
+		"express-session": "~1.13.0",
+		"connect-flash":"~0.1.1",
+	  	"express-partials":"~0.3.0"
+	}
+}

@@ -1,0 +1,13 @@
+<% if(!user){ %>
+<div class="hero-unit">
+    <h1>welcome...</h1>
+    <P>base on nodejs </P>
+    <p>
+        <a class="btn btn-primary btn-large" href="/login">login</a>
+        <a class="btn btn-large" href="/reg">register</a>
+    </p>
+</div>
+<% }else{ %>
+<%- include say %>
+<% }%>
+<%- include posts %>
